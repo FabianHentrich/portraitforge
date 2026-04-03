@@ -1,0 +1,67 @@
+# Models (keine Weights committen — Ordnerstruktur via .gitkeep erhalten)
+# Strategie: Alles in models/ ignorieren, dann .gitkeep-Dateien explizit erlauben.
+# Git erfordert, dass Parent-Dirs erst un-ignored werden bevor Dateien darin negiert werden können.
+/models/*
+!/models/generator
+!/models/enhancer
+!/models/background
+!/models/utils
+/models/generator/*
+/models/enhancer/*
+/models/background/*
+/models/utils/*
+!/models/generator/.gitkeep
+!/models/enhancer/.gitkeep
+!/models/background/.gitkeep
+!/models/utils/.gitkeep
+# Outputs
+/outputs/**
+!/outputs/.gitkeep
+
+# Inputs (persönliche Referenzbilder)
+/inputs/**
+!/inputs/.gitkeep
+
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Umgebungsvariablen (Token nicht committen)
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace cache
+.cache/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/

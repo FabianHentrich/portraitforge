@@ -1,0 +1,39 @@
+# Core — Versionen gepinnt (torch-directml erfordert Pre-Release)
+torch==2.4.1
+torch-directml==0.2.5.dev240914
+torchvision==0.19.1
+
+# HuggingFace
+diffusers==0.36.0
+transformers==5.4.0
+einops==0.8.2              # PhotoMaker: resampler.py
+peft==0.18.1               # PhotoMaker: LoRA-Adapter laden (load_lora_weights)
+accelerate==1.13.0
+safetensors==0.7.0
+huggingface-hub==1.8.0
+
+# ONNX
+onnxruntime-directml==1.24.4
+# CVE-2026-28500 (CVSS 8.6): betrifft onnx.hub.load() — wird hier nie aufgerufen.
+# Alle Modelle liegen lokal unter /models/. Kein Fix verfügbar (Stand 2026-03-27).
+onnx==1.20.1
+
+# Bildverarbeitung
+Pillow==12.1.1
+opencv-python==4.13.0.92
+rembg==2.0.74
+numpy==2.4.3
+
+# UI
+gradio==6.5.1
+
+# Utilities
+psutil==7.0.0           # CPU- und RAM-Monitoring
+tqdm==4.67.3
+python-dotenv==1.1.0
+hf_transfer==0.1.8   # Rust-basierter HF-Downloader, deutlich schneller als Standard
+
+# CVE-2025-71176 (CVSS 6.8): /tmp-Symlink-Angriff auf UNIX — nicht anwendbar auf Windows.
+# Kein Fix verfügbar (Stand 2026-03-27).
+pytest==8.3.5
+pytest-mock==3.14.0

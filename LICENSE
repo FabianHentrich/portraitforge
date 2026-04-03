@@ -1,0 +1,126 @@
+PortraitForge Responsible Use License (PRUL) v1.0
+
+Copyright (c) 2026 PortraitForge Contributors
+
+
+1. DEFINITIONS
+
+"Software" refers to the source code, documentation, and all associated files
+in this repository.
+
+"Output" refers to any image generated, processed, or modified using the
+Software.
+
+"User" refers to any natural or legal person who uses, copies, modifies, or
+distributes the Software.
+
+
+2. GRANTED RIGHTS
+
+Subject to the terms of this License, the User is hereby granted a free,
+non-exclusive, worldwide, revocable right to:
+
+  a) use, copy, and modify the Software for personal, academic, scientific,
+     and non-commercial purposes;
+  b) redistribute modified or unmodified copies of the Software under the
+     same license terms (copyleft);
+  c) use the Output of the Software for non-commercial purposes, provided
+     the usage restrictions (Section 3) are observed.
+
+Commercial use — including but not limited to the sale of Output, integration
+into commercial products or services, and use in a business context — requires
+a separate written agreement with the copyright holders.
+
+
+3. USAGE RESTRICTIONS
+
+The User agrees NOT to use the Software or its Output for the following
+purposes:
+
+  3.1  DECEPTION AND DEEPFAKES
+       Creating images intended to give the impression that a real person is
+       shown in a situation they were never in, or that are designed to deceive
+       third parties about a person's identity, actions, or statements.
+
+  3.2  LACK OF CONSENT
+       Generating or processing images that use the likeness of an
+       identifiable living person without their explicit consent — in
+       particular when using reference photos (e.g., via the PhotoMaker
+       provider).
+
+  3.3  CSAM AND SEXUAL EXPLOITATION
+       Creating depictions of child sexual abuse material (CSAM) or any
+       sexualized content depicting or appearing to depict minors —
+       regardless of whether real or fictional persons are shown.
+
+  3.4  DISCRIMINATION AND HATE SPEECH
+       Creating content that degrades, dehumanizes, or incites hatred or
+       violence against individuals or groups based on ethnicity, gender,
+       sexual orientation, religion, disability, age, or other protected
+       characteristics.
+
+  3.5  DISINFORMATION
+       Creating images for the deliberate spread of false information,
+       particularly in the context of political elections, public health,
+       armed conflicts, or natural disasters.
+
+  3.6  IDENTITY THEFT AND FRAUD
+       Creating images for use in forged identity documents, fake profiles,
+       social engineering, phishing, or other fraudulent activities.
+
+  3.7  NON-CONSENSUAL INTIMATE IMAGERY
+       Creating sexualized or intimate depictions of real persons without
+       their explicit consent (so-called "Non-Consensual Intimate Images",
+       NCII).
+
+
+4. LABELING REQUIREMENT
+
+The User is required to label all images generated or modified by the Software
+as AI-generated or AI-processed whenever such images are shared publicly,
+published, or distributed to third parties.
+
+The labeling must be perceptible to the viewer (e.g., visible watermark,
+metadata tag, or accompanying text).
+
+
+5. COPYLEFT
+
+If the Software or a derivative work is redistributed (in modified or
+unmodified form), the redistribution must be made under the same terms of
+this License. The usage restrictions (Section 3) and the labeling requirement
+(Section 4) must be included in full in every redistribution.
+
+
+6. THIRD-PARTY MODEL LICENSES
+
+The Software uses pre-trained AI models that are subject to their own license
+terms. The User is required to comply with the license terms of each model
+used:
+
+  - Stable Diffusion XL:  CreativeML Open RAIL++-M License
+  - Stable Diffusion 3.5: Stability AI Community License
+  - FLUX.1-schnell:       Apache 2.0 License
+  - RealVisXL:            CreativeML Open RAIL-M License
+  - PhotoMaker:           Apache 2.0 License
+  - Real-ESRGAN:          BSD 3-Clause License
+  - CodeFormer:           S-Lab License 1.0
+  - U2Net:                Apache 2.0 License
+
+
+7. REVOCATION
+
+In the event of a violation of the usage restrictions (Section 3) or the
+labeling requirement (Section 4), the rights granted in Section 2 shall
+terminate automatically and without prior notice.
+
+
+8. DISCLAIMER OF WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
