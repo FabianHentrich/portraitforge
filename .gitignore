@@ -53,6 +53,9 @@ env/
 
 # Claude Code
 .claude/
+CLAUDE.md
+.mcp.json
+.claudeignore
 
 # OS
 .DS_Store
@@ -65,3 +68,5 @@ Thumbs.db
 .pytest_cache/
 .coverage
 htmlcov/
+
+aufgabenliste.md
